@@ -1,0 +1,24 @@
+.home {
+  background-color: #3f51b5;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+
+  .center-text {
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h1 {
+      font-size: calc(12px + 3vw);
+      text-align: center;
+    }
+    p {
+      font-size: calc(6px + 1vw);
+      text-align: center;
+    }
+  }
+}

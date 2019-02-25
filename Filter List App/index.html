@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="author" content="Akhil Nair">
+  <meta name="description" content="Diwali Project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <!--Normalize CSS-->
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">  
+  <!--Custom CSS-->
+  <link href="css/style.css" rel="stylesheet">
+  <title> Construction Project Manager </title>
+</head>
+
+<body>
+
+<!--MAIN BODY STARTS -->
+  <h2>Filter</h2>
+  <div class="container">
+
+    <div class="filter" id="area">
+       <button id="areaButton">Area (SqFt)</button>
+       <div class="slidecontainer">
+          <input type="range" min="1" max="300" value="100" class="slider" id="areaRange" >
+          <div class="valueContainer">Value: <span id="areaValue"></span>SqFt</div>
+          
+        </div>
+    </div>
+
+
+    <div class="filter" id="age">
+       <button id="ageButton">Age (yrs)</button>
+       <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="3" class="slider" id="ageRange">
+          <div class="valueContainer">Value: <span id="ageValue"></span></div>
+        </div>
+    </div>
+
+    <div class="filter" id="price">
+       <button id="priceButton">Price (Lac)</button>
+       <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="46" class="slider" id="priceRange">
+          <div class="valueContainer">Value: <span id="priceValue"></span>L</div>
+        </div>
+    </div>
+
+      
+    <div class="filter" id="category">
+        <button id="categoryButton">Category</button>
+        <br>
+        <div id="category-input">
+            Residential: <input type="checkbox" id="residential" name="residential" value="residential" onclick="sliderFilter()"><br>
+            Commercial: <input type="checkbox" id="commercial"name="commercial" value="commercial"  onclick="sliderFilter()"><br>
+        </div>
+        
+    </div>
+  </div>
+
+  <table id="table" style="width:50%">
+    <tr id="table-heading">
+      <th>Project Name</th>
+      <th>Project Price</th> 
+      <th>Project Area</th>
+      <th>Project Age</th>
+      <th>Project Category</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>L</td>
+      <td>SqFt</td>
+      <td>yrs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>L</td>
+      <td>SqFt</td>
+      <td>yrs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>L</td>
+      <td>SqFt</td>
+      <td>yrs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>L</td>
+      <td>SqFt</td>
+      <td>yrs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>L</td>
+      <td>SqFt</td>
+      <td>yrs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>L</td>
+      <td>SqFt</td>
+      <td>yrs</td>
+      <td></td>
+    </tr>
+  </table>
+
+  
+<!--MAIN BODY ENDS-->
+  <!--Custom JavaScript-->
+
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>

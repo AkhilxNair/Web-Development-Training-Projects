@@ -1,0 +1,32 @@
+.card {
+  transition: 0.3s;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+
+  .card-container {
+    height: 170px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+    img {
+      border-radius: 50px;
+      z-index: -1;
+      cursor: auto;
+    }
+
+    h4 {
+      padding-top: 20px;
+    }
+  }
+}
+
+.carousel {
+  position: relative;
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0 !important;
+  }
+}

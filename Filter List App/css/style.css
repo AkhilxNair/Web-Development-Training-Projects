@@ -1,0 +1,84 @@
+h2{
+    margin-left: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.filter{       
+    margin: 0 auto;
+    width: 22%;
+    margin-left: 10px;
+}
+button{
+    border: none;
+    background-color: white;
+    outline: 0;
+}
+
+/* The Three SLiders */
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+    margin-top: 20px;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 18px; /* Specified height */
+    background: #D0CFFC; /* Grey background */
+    outline: none; /* Remove outline */    
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    border-radius: 20px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */    
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 18px; /* Set a specific slider handle width */
+    height: 18px; /* Slider handle height */
+    background: rgb(40, 58, 100); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #34495E; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.valueContainer{
+    margin-top: 20px;
+}
+
+#category-input{
+    padding-top: 18px;
+}
+
+button{
+    padding: 7px;
+}
+
+/* The Active Button Class */
+.activeButton{
+    background-color: #008000;    
+    border-radius: 20px;
+    color: white;
+}
+
+/* TABLE STYLE */
+#table{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 20px;
+}

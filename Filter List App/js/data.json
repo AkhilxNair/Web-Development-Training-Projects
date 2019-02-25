@@ -1,0 +1,45 @@
+{
+	"database": [{
+			"ProjectName": "Fernando Abbott 866",
+			"ProjectPrice": 62,
+			"ProjectArea": 100,
+			"ProjectAge": 5,
+			"ProjectCategory": "Residential"
+		},
+		{
+			"ProjectName": "AM House",
+			"ProjectPrice": 72,
+			"ProjectArea": 150,
+			"ProjectAge": 2,
+			"ProjectCategory": "Commercial"
+		},
+		{
+			"ProjectName": "Fortaleza Photography Museum",
+			"ProjectPrice": 50,
+			"ProjectArea": 70,
+			"ProjectAge": 10,
+			"ProjectCategory": "Commercial"
+		},
+		{
+			"ProjectName": "Adelaide Previdi Corporate",
+			"ProjectPrice": 90,
+			"ProjectArea": 190,
+			"ProjectAge": 7,
+			"ProjectCategory": "Commercial"
+		},
+		{
+			"ProjectName": "Casa America Building",
+			"ProjectPrice": 40,
+			"ProjectArea": 120,
+			"ProjectAge": 10,
+			"ProjectCategory": "Residential"
+		},
+		{
+			"ProjectName": "Quest MM18 Arquiteyura",
+			"ProjectPrice": 95,
+			"ProjectArea": 200,
+			"ProjectAge": 1,
+			"ProjectCategory": "Residential"
+		}
+	]
+}

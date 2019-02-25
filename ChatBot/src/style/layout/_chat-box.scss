@@ -1,0 +1,41 @@
+.chatbox {
+  position: absolute;
+  bottom: 70px;
+  right: 5%;
+  width: 300px;
+  height: 350px;
+  min-width: 150px;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+  border: 2px solid rgba(255, 168, 6, 0.452);
+  border-radius: 5px;
+  display: inline-block;
+  border-radius: 20px;
+
+  .chatbox-container {
+    position: relative;
+    height: 100%;
+
+    .chat-view {
+      height: 90%;
+      overflow-y: auto;
+      padding: 10px;
+    }
+
+    .chat-textbox {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 8px 15px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      box-sizing: border-box;
+      outline: none;
+    }
+  }
+}
+
+.chatbox-hidden {
+  right: -300px;
+}

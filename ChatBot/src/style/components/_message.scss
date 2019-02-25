@@ -1,0 +1,63 @@
+.message {
+  position: relative;
+  .profile-image {
+    display: inline-block;
+    img {
+      height: 35px;
+      border-radius: 30px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .chat {
+    width: 80%;
+    height: auto;
+
+    color: #fff;
+    border-radius: 12px;
+    background-color: rgba(0, 140, 255, 0.911);
+    padding: 3px;
+    padding-left: 10px;
+    display: inline-block;
+    overflow-wrap: break-word;
+
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 1.5em;
+      height: 1.5em;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .left {
+    border-bottom-left-radius: 0;
+    padding-top: 20px;
+    &::after {
+      left: 0;
+      transform: translateX(-100%);
+      background: radial-gradient(
+        circle at 0 0,
+        transparent,
+        transparent 72%,
+        rgb(0, 140, 255) 72%
+      );
+    }
+  }
+  .right {
+    border-bottom-right-radius: 0;
+    padding-top: 20px;
+    margin: 5px 0px 5px 0px;
+    &::after {
+      right: 0;
+      transform: translateX(100%);
+      background: radial-gradient(
+        circle at 100% 0,
+        transparent,
+        transparent 72%,
+        rgb(0, 140, 255) 72%
+      );
+    }
+  }
+}
